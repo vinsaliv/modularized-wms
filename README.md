@@ -1,1 +1,1 @@
-# Vinsaliv's Personal Moduled Window Manager
+# Vinsaliv's Moduled Window Managers
