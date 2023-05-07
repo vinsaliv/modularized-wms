@@ -7,7 +7,7 @@ layouts = [
 ]
 
 floating_layout = layout.Floating(
-    float_rules=[
+    float_rules= [
         *layout.Floating.default_float_rules,
         Match(wm_class="confirmreset"),
         Match(wm_class="makebranch"),
