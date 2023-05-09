@@ -4,7 +4,7 @@ from modules.hooks import *
 from modules.keys import mod, keys
 from modules.layouts import layouts, floating_layout
 from modules.mouse import mouse
-from modules.screens import screens
+from modules.screens import widget_defaults, extension_defaults, screens
 
 dgroups_key_binder = None
 dgroups_app_rules = []
