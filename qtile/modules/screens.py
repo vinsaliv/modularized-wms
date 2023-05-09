@@ -1,6 +1,14 @@
 from libqtile import bar, widget
 from libqtile.config import Screen
 
+widget_defaults = dict(
+    font="sans",
+    fontsize=12,
+    padding=3,
+)
+
+extension_defaults = widget_defaults.copy()
+
 screens = [
     Screen(
         bottom=bar.Bar(
