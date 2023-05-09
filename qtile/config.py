@@ -6,14 +6,6 @@ from modules.layouts import layouts, floating_layout
 from modules.mouse import mouse
 from modules.screens import screens
 
-widget_defaults = dict(
-    font="sans",
-    fontsize=12,
-    padding=3,
-)
-
-extension_defaults = widget_defaults.copy()
-
 dgroups_key_binder = None
 dgroups_app_rules = []
 follow_mouse_focus = True
