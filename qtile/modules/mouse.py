@@ -1,6 +1,7 @@
 # File: mouse.py
 from libqtile.config import Click, Drag
 from libqtile.lazy import lazy
+from .keys import mod
 
 mouse = [
     Drag(
